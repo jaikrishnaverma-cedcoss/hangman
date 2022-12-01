@@ -1,0 +1,325 @@
+:root {
+  --sky: #00cef0;
+  --pink: #e45370;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.fclr {
+  color: #3578E5
+}
+
+.dbg {
+  background-color: #0cbb72;
+}
+
+.lbg {
+  background-color: #abd8c5;
+}
+
+.full {
+  width: 100%;
+}
+
+.w10 {
+  width: 10%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w33 {
+  width: 33%;
+}
+
+.w20 {
+  width: 20%;
+}
+
+.w60 {
+  width: 60%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w40 {
+  width: 40%
+}
+
+.w60 {
+  width: 60%
+}
+
+.w80 {
+  width: 80%
+}
+
+.p1 {
+  padding: 1%;
+}
+
+.p2 {
+  padding: 2%;
+}
+
+.p3 {
+  padding: 3%;
+}
+
+.p4 {
+  padding: 4%;
+}
+
+.p5 {
+  padding: 5%;
+}
+
+.m1 {
+  margin: 1%;
+}
+
+.m2 {
+  margin: 2%;
+}
+
+.m3 {
+  margin: 3%;
+}
+
+.m4 {
+  margin: 4%;
+}
+
+.m5 {
+  margin: 5%;
+}
+
+/* horizontal padding */
+.hp0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.hp1 {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+/* vertical padding */
+.vp0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.vp1 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/* horizontal margin */
+.hm0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.hm1 {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+/* vertical margin */
+.vm0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.vm1 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.bold {
+  font-style: bold;
+}
+
+.fw900 {
+  font-weight: 900;
+}
+
+.fw700 {
+  font-weight: 700;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.flexAIC {
+  align-items: center;
+}
+
+.flexJCC {
+  justify-content: center;
+}
+
+.flexSB {
+  justify-content: space-between;
+}
+
+.flexSA {
+    justify-content: space-around;
+}
+
+.scrolly {
+    overflow-y: scroll;
+}
+
+.scrollx {
+    overflow-x: scroll;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.line {
+    border: 1px solid rgb(202, 202, 202);
+}
+
+.linebottom {
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.linetop {
+    border-top: 1px solid rgb(202, 202, 202);
+}
+
+.lineleft {
+    border-left: 1px solid rgb(202, 202, 202);
+}
+
+.lineright {
+    border-right: 1px solid rgb(202, 202, 202);
+}
+
+.brd {
+    border-radius: 5px;
+}
+
+/* specific */
+
+.kys {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(32, 28, 28);
+    color:white;
+    font-size: 25px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.kys:hover {
+    background-color: #3578E5;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.btnDisabled{
+  background-color: #3578E5;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.main {
+    min-height: 100vh;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
+    background-size: 110px 275px;
+    background-repeat: repeat-x;  
+}
+
+.bgwhite {
+    background-color: white;
+}
+
+.keyboard {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.primaryBtn {
+    margin: 20px 10px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 13px 25px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    border: none;
+    color: white;
+    background: #185adb;
+    transition: all 0.25s ease;
+}
+
+.primaryBtn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px -10px rgba(24, 90, 219, 0.6);
+}
+
+.txtbox{
+    width: 41px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    margin: 1%;
+    padding: 3%;
+}
+
+.txtbox1{
+    width: 60px;
+    height: 60px;
+    border: 2px solid orange !important;
+    color: black;
+    font-size: 40px;
+}
